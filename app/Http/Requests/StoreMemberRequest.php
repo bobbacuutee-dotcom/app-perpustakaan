@@ -21,7 +21,7 @@ class StoreMemberRequest extends FormRequest{
             'email' => 'required|string|max:20',
             'nomor_telepon' => 'required|string|max:17',
             'alamat' => 'required|string|max:100',
-            'status' => 'required|string',
+            'status' => 'required|string|in:Aktif, Tidak Aktif',
         ];
     }
     public function messages(): array{

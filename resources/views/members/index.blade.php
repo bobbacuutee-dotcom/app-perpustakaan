@@ -12,6 +12,7 @@
                 <th>Nama</th>
                 <th>NIM</th>
                 <th>Email</th>
+                <th>Alamat</th>
                 <th>No. Telepon</th>
                 <th>Status</th>
                 <th>Aksi</th>
@@ -23,6 +24,7 @@
                     <td>{{ $member['nama'] }}</td>
                     <td>{{ $member['nim'] }}</td>
                     <td>{{ $member['email'] }}</td>
+                    <td>{{ $member['alamat'] }}</td>
                     <td>{{ $member['nomor_telepon'] }}</td> 
                     <td>{{ ucfirst($member['status']) }}</td>
                     <td>
@@ -44,6 +46,6 @@
             @endforelse
         </tbody>
     </table>
-
+    {{ $members->links() }}
     <p><em>Catatan: data di atas masih data dummy (array statis di Controller). Form tambah/edit anggota dan CRUD lengkap anggota baru dibuat mulai Pertemuan 5.</em></p>
 @endsection

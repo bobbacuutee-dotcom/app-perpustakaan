@@ -16,6 +16,14 @@
         table { border-collapse: collapse; width: 100%; margin-top: 16px; }
         th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
         .alert-success { background: #d1fae5; color: #065f46; padding: 10px 14px; border-radius: 4px; margin-bottom: 16px; }
+        .alert-error   { background: #fee2e2; color: #991b1b; padding: 10px 14px; border-radius: 4px; margin-bottom: 16px; }
+        /* Status badges */
+        .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+        .badge-dipinjam     { background: #fef3c7; color: #92400e; }
+        .badge-dikembalikan { background: #d1fae5; color: #065f46; }
+        .badge-terlambat    { background: #fee2e2; color: #991b1b; }
+        /* Tombol kembalikan */
+        .btn-warning { background: #d97706; color: #fff; }
         .btn { display: inline-block; padding: 6px 14px; background: #2563eb; color: #fff; text-decoration: none; border-radius: 4px; border: none; cursor: pointer; }
         form.inline { display: inline; }
         label { display: block; margin-top: 12px; font-weight: bold; }
